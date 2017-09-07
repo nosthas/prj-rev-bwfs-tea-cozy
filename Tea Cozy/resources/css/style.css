@@ -1,0 +1,158 @@
+/************ Tea Cozy Stylesheet *************
+*       created by Emilio Nosthas             */
+
+/* Generic Styles */
+
+  body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+  }
+
+/* Header */
+
+  header {
+    background-color: black;
+    display: flex;
+    height: 69px;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+  }
+
+  .logo {
+    text-align:left;
+    flex-grow: 1;
+    display: flex;
+  }
+
+  .logo img {
+    height: 50px;
+    margin-left: 10px;
+  }
+
+  nav {
+    display: flex;
+    margin-right: 10px;
+  }
+
+  nav a {
+    color: seashell;
+    margin: 0 2px 0 2px
+  }
+
+/* Main Content */
+
+  div#container {
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    top: 90px
+  }
+
+/* Main Content :: Hero */
+
+  div#hero {
+    height: 700px;
+    background-image: url("../images/img-mission-background.jpg");
+    display: flex;
+    align-items: center;
+  }
+
+  .hero-title {
+    flex-grow: 1;
+    background-color: black;
+    height: 100px;
+  }
+
+  .hero-title h2, .hero-title h4{
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  .hero-title h2{
+    margin-top: 5px;
+  }
+
+/* Main Content :: Gallery */
+
+  div#tea-of-the-month {
+    padding-top: 50px;
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .gallery-item {
+    flex-basis: 330px;
+  }
+
+  .gallery-item img {
+    width: 300px;
+    height: 200px;
+  }
+
+  .gallery-item h4 {
+    margin-top: 10px;
+  }
+
+/* Main Content :: Location */
+
+  div#locations {
+    height: 500px;
+    background-image: url("../images/img-locations-background.jpg");
+    padding-top: 80px;
+    margin: 30px 0 0 0;
+  }
+
+  div#locations h2{
+    margin-top: 0;
+    margin-bottom: 15px;
+    line-height: 22px;
+  }
+
+  .locations {
+    display: flex;
+    justify-content: center;
+  }
+
+  .location-item {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+/* Main Content :: Footer */
+
+  div#footer {
+    padding-top: 20px;
+    height: 200px;
+  }
+
+  .hero-title a{
+    color: seashell;
+    text-decoration: none;
+  }
+
+  .copyright {
+    text-align: left;
+    margin: 120px 0 25px 20px;
+
+  }
